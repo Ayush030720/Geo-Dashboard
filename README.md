@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,42 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# 🌍 Geo Project Dashboard
+
+A responsive dashboard to visualize infrastructure projects using a data table and an interactive map.  
+Built with **React**, **Material UI**, and **Leaflet**.
+
+---
+
+## 📌 Overview
+
+This project displays a list of geo-tagged projects alongside a live map.  
+Selecting a project in the table highlights and recenters it on the map, enabling quick spatial understanding of project distribution and status.
+
+---
+
+## 🧠 Design & Technical Decisions
+
+### Why React + MUI
+- **React** for component-driven architecture and state management
+- **Material UI (MUI)** for consistent, accessible UI components
+- `sx` prop used for scoped styling and faster iteration
+
+### Why Leaflet
+- Lightweight and open-source
+- Works well with React via `react-leaflet`
+- Easy marker handling and map controls
+
+### Layout Strategy
+- Flexbox-based layout instead of MUI Grid for:
+  - Better control over responsive behavior
+  - Allowing the map to expand dynamically and fill remaining space
+- On mobile: layout stacks vertically
+- On desktop: table has fixed width, map grows freely
+
+---
+
+## 🧩 Component Decomposition
+
+>>>>>>> 35dad71b8d5c5e5795ff9961a4ab4c67236a018b
