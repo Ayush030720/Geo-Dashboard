@@ -1,0 +1,21 @@
+/* Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove browser default margins */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Root must fill viewport */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
